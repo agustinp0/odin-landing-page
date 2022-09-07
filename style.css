@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* All the navbar */
+
+.navbar {
+    display: flex;
+    background-color: rgb(190, 222, 243);
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.logo {
+width: 75px;
+height: auto;
+padding-left: 25px;
+    
+    
+}
+
+
+.navbar-links {
+    display: flex;
+    gap: 25px;
+    padding-right: 25px;
+    
+}
+
+.navbar-links li {
+    list-style: none;
+    font-size: 24px;
+}
