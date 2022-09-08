@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
 }
 
 /* All the navbar */
@@ -12,6 +12,10 @@ body {
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/08/17/41/fellowship-5638589_1280.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     
 }
 
@@ -33,38 +37,86 @@ padding-left: 25px;
 .navbar-links li {
     list-style: none;
     font-size: 24px;
+    font-family: sans-serif;
 }
 
 /* All the header */
 
 .header {
     display: flex;
-    background-color: azure;
+    
     align-items: center;
     justify-content: center;
     gap: 200px;
     height: 500px;
+    background-image: url("https://i.pinimg.com/originals/8c/fe/28/8cfe282f83aeeb2a3c06f9304343cebb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .gandalfglasses {
-    border-radius: 8px;
+    border-radius: 100px;
     width: 450px;
     height: auto;
-    border: 6px solid black;
+    border: 3px solid rgb(18, 110, 53);
+    background-color: black;
+    opacity: 1;
+    transform: scaleX(-1);
 }
 
 .headerwelcome {
 flex-wrap: wrap;
-width: 400px;
+width: 500px;
 height: auto;
+font-family: "Courier New";
+background-color: rgba(233, 240, 234, 0.5);
+border-radius: 30px;
+padding: 30px;
+color: rgb(18, 110, 53);
+border: 3px solid rgb(18, 110, 53);
 }
 
 .headerwelcome button {
     padding: 2px 25px;
-    background-color: rgb(173, 51, 51);
+    background-color: rgb(18, 110, 53);
     color: whitesmoke;
     text-align: center;
     border-radius: 30px;
-    border: none;
+    margin-left: 70px;
+    
 
+}
+
+/* All the team info */
+
+.teaminfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.members {
+    display: flex;
+    gap: 25px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.membericon {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(18, 110, 53);
+    border-radius: 10px;
+    margin-bottom: 30px;
+ 
+}
+
+.text {
+    text-align: center;
 }
