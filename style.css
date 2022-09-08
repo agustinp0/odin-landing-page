@@ -95,7 +95,8 @@ border: 3px solid rgb(18, 110, 53);
     justify-content: flex-start;
     align-items: center;
     height: 500px;
-    margin-top: 30px;
+    font-family: "Courier New";
+    background-color: grey;
 }
 
 .members {
@@ -119,4 +120,38 @@ border: 3px solid rgb(18, 110, 53);
 
 .text {
     text-align: center;
+}
+
+/* Quote */
+
+.quote {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(https://mocah.org/uploads/posts/4586377-fantasy-art-the-lord-of-the-rings.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top: 3px solid black;
+}
+
+.quotecontainer {
+    border: 4px solid rgb(18, 110, 53);
+    padding: 40px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.quotecontainer p {
+    font-size: 20px;
+    text-align: end;
+
+}
+
+.quotetext {
+    font-size: 30px;
+    width: 400px;
+    height: auto;
 }
