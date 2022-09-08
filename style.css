@@ -159,3 +159,25 @@ border: 3px solid rgb(18, 110, 53);
     font-family: "Courier New";
     font-style: italic;
 }
+
+/* Sign Up */
+
+.signup {
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.signupcontainer {
+    display: flex;
+    border: 3px solid blue;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 50px;
+}
+
+.signuptext {
+    
+}
