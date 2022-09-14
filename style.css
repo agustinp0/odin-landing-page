@@ -176,8 +176,34 @@ border: 3px solid rgb(18, 110, 53);
     align-items: center;
     gap: 70px;
     padding: 50px;
+    background-color: blue;
+    border-radius: 4px;
 }
 
 .signuptext {
+    color: white;
     
+}
+
+.signupbtn {
+    color: white;
+    background-color: blue;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(18, 110, 53);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footertext {
+ 
 }
